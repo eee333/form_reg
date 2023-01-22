@@ -53,6 +53,12 @@ label{
     display: block;
     margin-bottom: 10px;
 }
+input, select{
+    outline: none;
+}
+input:focus, select:focus{
+    border-bottom: 1px solid #099;
+}
 @media only screen and (max-width: 900px){
     .container{
         width: 100%;
