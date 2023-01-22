@@ -39,6 +39,9 @@ img{
     margin-top: 40px;
     text-align: end;
 }
+input:focus, select:focus{
+    border-bottom: 1px solid #099;
+}
 .btn input{
     padding: 20px 40px;
     background-color: #099;
@@ -56,8 +59,8 @@ label{
 input, select{
     outline: none;
 }
-input:focus, select:focus{
-    border-bottom: 1px solid #099;
+hr{
+    margin: 0 -40px;
 }
 @media only screen and (max-width: 900px){
     .container{
